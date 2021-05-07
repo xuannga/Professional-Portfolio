@@ -1,0 +1,10 @@
+body {
+    margin: 20px;
+    background-color: rgb(157, 250, 157)
+}
+
+header {
+    font-size: 40px;
+    background: url(images/banner.jpg);
+}
+
