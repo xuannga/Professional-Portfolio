@@ -1,10 +1,39 @@
+:root {
+    --dark: rgb(6, 95, 46);
+    --light: rgb(196, 253, 196);
+    --gradient: linear-gradient( to right, var(--dark), var(--light));
+    --indent: 20px
+    
+}
+
 body {
-    margin: 20px;
-    background-color: rgb(157, 250, 157)
+    margin: var(--indent);
+    background-color: var(--light);
 }
 
 header {
-    font-size: 40px;
-    background: url(images/banner.jpg);
+    background-image: var(--gradient);
 }
 
+header h1 {
+    font-size: 50px;
+    color: var(--light);
+    margin: var(--indent);
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;  
+}
+
+nav ul {
+    text-align: right;
+    font-size: 30px;
+}
+
+img {
+    border-spacing: 10px;
+    border-color: black;
+    height: 10%;
+    width: 100%;
+}
