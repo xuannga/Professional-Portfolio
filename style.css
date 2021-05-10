@@ -13,13 +13,13 @@ body {
     background-image: var(--gradient-left);
 }
 
-/* section {
-    border: var(--indent);
-} */
-
 header {
     background-image: var(--gradient-right);
-    /* border: var(--border); */
+}
+
+.aboutMe {
+    background-image: var(--gradient-right);
+    padding: var(--indent);
 }
 
 header h1 {
@@ -42,6 +42,7 @@ nav ul {
 .banner img {
     height: 10%;
     width: 100%;
+    padding-bottom: var(--indent);
 }
 
 .works img {
