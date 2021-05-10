@@ -1,18 +1,25 @@
 :root {
     --dark: rgb(6, 95, 46);
     --light: rgb(196, 253, 196);
-    --gradient: linear-gradient( to right, var(--dark), var(--light));
-    --indent: 20px
+    --gradient-right: linear-gradient( to right, var(--dark), var(--light));
+    --gradient-left: linear-gradient( to left, var(--dark), var(--light));
+    --indent: 20px;
+    --border: 5px solid black;
     
 }
 
 body {
     margin: var(--indent);
-    background-color: var(--light);
+    background-image: var(--gradient-left);
 }
 
+/* section {
+    border: var(--indent);
+} */
+
 header {
-    background-image: var(--gradient);
+    background-image: var(--gradient-right);
+    /* border: var(--border); */
 }
 
 header h1 {
@@ -29,11 +36,15 @@ nav ul li {
 nav ul {
     text-align: right;
     font-size: 30px;
+    padding: var(--indent);
 }
 
-img {
-    border-spacing: 10px;
-    border-color: black;
+.banner img {
     height: 10%;
     width: 100%;
+}
+
+.works img {
+    height: 300px;
+    width: 250px;
 }
