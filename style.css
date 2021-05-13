@@ -1,3 +1,5 @@
+
+/* variables */
 :root {
     --dark: rgb(6, 95, 46);
     --light: rgb(196, 253, 196);
@@ -8,44 +10,103 @@
     
 }
 
+/* setting body, h1, h2, h3 color, font and size */
 body {
     margin: var(--indent);
     background-image: var(--gradient-left);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-image: var(--gradient-right);
-}
-
-.aboutMe {
-    background-image: var(--gradient-right);
-    padding: var(--indent);
-}
-
-header h1 {
+h1 {
     font-size: 50px;
     color: var(--light);
     margin: var(--indent);
 }
 
-nav ul li {
-    display: inline;
-    list-style-type: none;  
+h2, h3 { 
+    color: var(--light);
+    margin: var(--indent);
 }
 
-nav ul {
+/* --------------------------------------------------------------------------- */
+
+header {
+    background-image: var(--gradient-right);
+    display: flex;
+    justify-content: space-between;
+    padding: var(--indent);
+}
+
+
+header nav ul {
     text-align: right;
     font-size: 30px;
     padding: var(--indent);
 }
 
-.banner img {
-    height: 10%;
-    width: 100%;
-    padding-bottom: var(--indent);
+
+/* display nav list inline */
+nav ul li {
+    display: inline;
+    list-style-type: none;  
 }
 
-.works img {
-    height: 300px;
-    width: 250px;
+/* background image for banner  */
+.banner {
+    background-image: url("images/leaf.jpg");
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
+
+/* --------------------------------------------------------------------------- */
+/* styling about me section to have padding and background color */
+.aboutMe {
+    background-image: var(--gradient-right);
+    padding: var(--indent);
+    font-size: 20px;
+}
+/* --------------------------------------------------------------------------- */
+/* styling works sections */
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: var(--gradient-right);
+    margin: 20px 0 0 0;
+}
+
+.imgholder {
+    display: flex;
+    position: relative;
+    width: 300px;
+    border: 5px solid var(--light);
+    margin: 4px 0;
+}
+.works img {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+ /* ------------------------------------------------------------------------- */
+/* styling contact section */
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    background-image: var(--gradient-right);
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    padding: var(--indent);
+}
+
+/* --------------------------------------------------------------------------- */
+/* responsive styling */
+@media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
