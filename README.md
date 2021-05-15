@@ -9,7 +9,7 @@ This project taught me that CSS plays a large role in styling and creating my we
 
 https://github.com/xuannga/Professional-Portfolio
 
-Screen Shots of live website
+#Screen Shots of live website
 
 ![Portfolioscreenshot](/images/P-P-screenshot1.png)
 ![Portfolioscreenshot](/images/P-P-screenshot2.png)
