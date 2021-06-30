@@ -33,6 +33,10 @@ h2 {
 
 }
 
+p{
+    padding: 10px;
+}
+
 .container {
     width: 75%;
     display: flex;
@@ -167,6 +171,27 @@ nav a {
 
     list-style-type: none;
 } 
+ul{
+    padding: 20px;
+}
+
+.githublink:link {
+   
+    color: var(--dark);
+  }
+  
+.githublink:visited {
+    
+    color: var(--dark);  
+}
+  
+.githublink:hover {
+    color: var(--dark);  
+}
+  
+.githublink:active {
+    color: var(--dark);  
+}
 
 /* --------------------------------------------------------------------------- */
 /* responsive mobile styling */
