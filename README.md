@@ -1,15 +1,14 @@
-# Professional-Portfolio
+## Professional-Portfolio
 
-#Description
+## Description
 
 My motivation and reason to why I built this webpage is to create a portfolio to store all my work inorder for future employers to have easy access to my works.
 This project taught me that CSS plays a large role in styling and creating my webpage. I learned how to use the box model to change the look and positioning of the contents. Also learned more about media query screen, flex box and box styling. 
 
-#link to github
+## Link to github
 
 https://xuannga.github.io/Professional-Portfolio/
 
-#Screen Shots of live website
+## Video clip of live website
 
-![Portfolioscreenshot](/images/P-P-screenshot1.png)
-![Portfolioscreenshot](/images/P-P-screenshot2.png)
+![videoClip](/assets/images/Portfolio.gif)
