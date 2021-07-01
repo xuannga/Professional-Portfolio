@@ -207,8 +207,12 @@ ul{
         margin: 20px 0 0 0;
     }
 
-    h1 {
+    h1, h2, h3 {
         color: rgb(3, 54, 10);
+    }
+
+    h2, h3 {
+        font-size: 20px;
     }
     
     .banner {
@@ -228,6 +232,8 @@ ul{
         justify-content: center;
         margin-left: 20px;
     }
+
+
     
   }
   
